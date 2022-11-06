@@ -1,0 +1,98 @@
+.payment{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+    /* margin-left: 120px; */
+    color: rgb(202,95,59);
+    height: 20px;
+}
+.invoice{
+    text-align: left;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: none;
+    padding: 20px 20px 20px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgb(239,248,255);
+}
+.bank{
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    border: none;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgb(239,248,255);
+}
+.top2{
+        width:20%;
+}
+.detailsdiv{
+    border-style: solid;
+    width: 40%;
+    font-size: 25px;
+    margin: 30px 0 30px 30px;
+    border-radius: 5px;
+}
+.detail{
+    margin: 30px;
+    
+}
+.amt{
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+.top1{
+    display: flex;
+    margin-top: 100px;
+}
+@media screen and (max-width: 580px) {
+    .top1 {
+        margin-top: 50px;
+    }
+    .payment{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .invoice{
+        padding: 15px;
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .bank{
+        padding: 15px;
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .detailsdiv{
+        margin-left: 20px;
+        margin-top: 42px;
+        font-size: 15px;
+    }
+    .amt{
+        margin-left: 20px;
+        margin-top: 42px;
+        font-size: 15px;
+    }
+      } 
+
+      
+@media screen and (min-width: 880px) and (max-width: 1190px) {
+    .top1{
+        margin-top: 130px;
+    }
+    }
+    @media screen and (min-width: 580px) and (max-width: 880px) {
+        .top1{
+            margin-top: 90px;
+        }
+        }

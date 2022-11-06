@@ -1,0 +1,131 @@
+.Home{
+
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.img{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.para{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+.anouncement{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.anounc{
+    border-radius: 5px;
+    text-align: left;
+    padding: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: rgb(210,235,240);
+    color: rgb(67, 114, 109);
+}
+.work{
+    margin-top: 15px;
+    text-align: left;
+    color: rgb(202,95,59);
+}
+.view1{
+    text-align: left;
+}
+.view{
+    margin-top: 40px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 0 0 30px  rgb(223, 179, 76);
+    border:none ;
+    background: white;
+}
+.intern{
+    margin-top: 40px;
+    text-align: left;
+    color: rgb(202,95,59);
+}
+
+.formm{
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 40%;
+    padding: 25px;
+    box-shadow: 0 0 30px  rgb(223, 179, 76);
+    border:none;
+}
+.form1{
+    margin-top: 15px;
+    
+    color: rgb(202,95,59);
+}
+.form2{
+    display: fixed;
+    resize: none;
+    text-align:left;
+    font-size: 25px;
+    margin-top: 15px;
+    height: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+ @media screen and (max-width: 580px) {
+    .img{
+        margin-top: 80px;
+    }
+    .anouncement {
+        display: flex;
+        justify-content: center;
+    }
+.Home {
+    margin-top: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.formm {
+    width: 50%;
+    border-radius: 5px;
+    padding: 25px;
+}
+.formm1{
+    text-align: left;
+  } 
+}
+
+@media screen and (min-width: 880px) {
+.Home{
+    margin-top: 130px;
+}
+}
+@media screen and (min-width: 580px) and (max-width: 880px) {
+
+    .img{
+        margin-top: 80px;
+    }
+    .anouncement {
+        display: flex;
+        justify-content: center;
+    }
+.Home {
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.formm {
+    width: 50%;
+    border-radius: 5px;
+    padding: 25px;
+}
+.formm1{
+    text-align: left;
+  } 
+
+}
