@@ -20,7 +20,7 @@ const MyJob = () => {
           <textarea rows="4" cols="20" className="form2" placeholder="Intern diggiplus"></textarea>
           </form>
       </div>
-      <div className='abc' align="right">
+      <div className='anouncement1' align="right">
            
             <h1 className='ann'>Anouncement📢📢</h1>
            
